@@ -1,0 +1,64 @@
+{
+  "customer": [
+    {
+      "id": 1,
+      "email": "astrid.vermeulen@belgacom.be",
+      "birth_date": "1988-03-15",
+      "is_active": true
+    },
+    {
+      "id": 2,
+      "email": "xavier.leclercq@proximus.be",
+      "birth_date": null,
+      "is_active": true
+    },
+    {
+      "id": 3,
+      "email": "sophie.janssens@telenet.be",
+      "birth_date": "1992-11-28",
+      "is_active": false
+    },
+    {
+      "id": 4,
+      "email": "jean-michel.dupont@voo.be",
+      "birth_date": "1975-06-02",
+      "is_active": true
+    },
+    {
+      "id": 5,
+      "email": "aline.de.smet@scarlet.be",
+      "birth_date": "2001-09-10",
+      "is_active": true
+    },
+    {
+      "id": 6,
+      "email": "frederic.mertens@edpnet.be",
+      "birth_date": null,
+      "is_active": false
+    },
+    {
+      "id": 7,
+      "email": "isabelle.peeters@orange.be",
+      "birth_date": "1983-04-22",
+      "is_active": true
+    },
+    {
+      "id": 8,
+      "email": "vincent.van.den.broeck@base.be",
+      "birth_date": "1995-12-05",
+      "is_active": true
+    },
+    {
+      "id": 9,
+      "email": "nathalie.mathieu@mobilevikings.be",
+      "birth_date": null,
+      "is_active": true
+    },
+    {
+      "id": 10,
+      "email": "olivier.jacobs@dommel.be",
+      "birth_date": "1979-01-18",
+      "is_active": false
+    }
+  ]
+}
