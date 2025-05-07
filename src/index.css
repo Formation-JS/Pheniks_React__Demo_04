@@ -36,8 +36,13 @@ body {
   min-height: 100vh;
 }
 
+main {
+  padding: 1ch;
+  background-color: snow;
+}
+
 h1 {
-  font-size: 1.6em;
+  font-size: 2em;
   line-height: 1.1;
 }
 

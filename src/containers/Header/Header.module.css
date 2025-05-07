@@ -1,0 +1,32 @@
+.header {
+  background-color: mediumblue;
+  color: snow;
+  width: 100vw;
+  padding: 1ch;
+
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 1ch;
+}
+
+.header span {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+
+.nav > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1ch;
+}
+
+.nav a {
+  color: snow;
+}
+
+.nav .active {
+  color: goldenrod;
+}
