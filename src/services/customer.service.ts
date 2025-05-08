@@ -21,7 +21,20 @@ const customerService = {
       email: customer.email,
       birthdate: !!customer.birth_date ? new Date(customer.birth_date) : null
     }));
-  }
+  },
+
+  getById: async (id: number) : Promise<Customer> => {
+    const result = await axios.get<CustomerRequest>('http://localhost:4002/customer/'+ id);
+
+    await fakeLatence(500);
+
+    const customer = result.data;
+    return {
+      id: customer.id,
+      email: customer.email,
+      birthdate: !!customer.birth_date ? new Date(customer.birth_date) : null
+    };
+  },
 
 };
 

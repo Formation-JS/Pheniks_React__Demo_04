@@ -15,7 +15,7 @@ export default function CustomerListPage() {
         <Link to='/customer/42' >Client n°42</Link>
         <br />
         {/* Route relative */}
-        <Link to='13' >Client n°13</Link>
+        <Link to='9' >Client n°9</Link>
       </div>
 
       <h3>Data - Load by button</h3>
