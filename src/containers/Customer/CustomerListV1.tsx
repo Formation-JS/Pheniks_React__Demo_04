@@ -31,7 +31,7 @@ export default function CustomerList() {
       ) : customers ? (
         <ul>
           {customers.map(customer => (
-            <li>
+            <li key={customer.id}>
               {customer.email} <Link to={customer.id.toString()}>Detail</Link>
             </li>
           ))}

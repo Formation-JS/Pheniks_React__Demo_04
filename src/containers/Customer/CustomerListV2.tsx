@@ -12,7 +12,7 @@ export default function CustomerList_AutoLoading() {
       ) : customers ? (
         <ul>
           {customers.map(customer => (
-            <li>
+            <li key={customer.id}>
               {customer.email} <Link to={customer.id.toString()}>Detail</Link>
             </li>
           ))}
