@@ -1,5 +1,6 @@
 import { Link } from 'react-router';
 import CustomerList from '../../containers/Customer/CustomerListV1';
+import CustomerList_AutoLoading from '../../containers/Customer/CustomerListV2';
 
 export default function CustomerListPage() {
 
@@ -17,8 +18,11 @@ export default function CustomerListPage() {
         <Link to='13' >Client n°13</Link>
       </div>
 
-      <h3>Data</h3>
+      <h3>Data - Load by button</h3>
       <CustomerList />
+      
+      <h3>Data - Auto loading</h3>
+      <CustomerList_AutoLoading />
 
     </>
   );
